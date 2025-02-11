@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "code-creeper/laravel-chunkify",
+    "description": "This is my package laravel-chunkify",
     "keywords": [
-        ":vendor_name",
+        "Abdul Haseeb Khan",
         "laravel",
-        ":package_slug"
+        "laravel-chunkify"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/code-creeper/laravel-chunkify",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Abdul Haseeb Khan",
+            "email": "abdulhaseebkhan407@gmail.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "CodeCreeper\\Chunkify\\": "src/",
+            "CodeCreeper\\Chunkify\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "CodeCreeper\\Chunkify\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "CodeCreeper\\Chunkify\\ChunkifyServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Chunkify": "CodeCreeper\\Chunkify\\Facades\\Chunkify"
             }
         }
     },

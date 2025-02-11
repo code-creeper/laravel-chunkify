@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace CodeCreeper\Chunkify\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class ChunkifyCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-chunkify';
 
     public $description = 'My command';
 
