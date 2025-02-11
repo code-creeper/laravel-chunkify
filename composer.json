@@ -2,7 +2,11 @@
     "name": "code-creeper/laravel-chunkify",
     "description": "This is my package laravel-chunkify",
     "keywords": [
-        "Abdul Haseeb Khan",
+        "chunkify",
+        "uploading",
+        "file-upload",
+        "chunk-upload",
+        "s3-upload",
         "laravel",
         "laravel-chunkify"
     ],
@@ -16,7 +20,7 @@
         }
     ],
     "require": {
-        "php": "^8.4",
+        "php": "^8.3",
         "spatie/laravel-package-tools": "^1.16",
         "illuminate/contracts": "^10.0||^11.0"
     },
