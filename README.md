@@ -76,7 +76,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [Abdul Haseeb Khan](https://github.com/code-creeper)
+- [Code Creeper](https://github.com/code-creeper)
 - [All Contributors](../../contributors)
 
 ## License

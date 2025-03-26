@@ -39,8 +39,7 @@
     },
     "autoload": {
         "psr-4": {
-            "CodeCreeper\\Chunkify\\": "src/",
-            "CodeCreeper\\Chunkify\\Database\\Factories\\": "database/factories/"
+            "CodeCreeper\\Chunkify\\": "src/"
         }
     },
     "autoload-dev": {

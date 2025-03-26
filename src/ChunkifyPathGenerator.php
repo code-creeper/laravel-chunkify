@@ -2,4 +2,7 @@
 
 namespace CodeCreeper\Chunkify;
 
-class Chunkify {}
+class ChunkifyPathGenerator
+{
+
+}
