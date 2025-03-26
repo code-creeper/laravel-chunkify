@@ -5,7 +5,6 @@ namespace CodeCreeper\Chunkify\Models;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 
 /**
  * @property string $name

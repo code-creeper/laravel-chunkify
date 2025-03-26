@@ -6,7 +6,6 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 use Illuminate\Support\Facades\Config;
 use Illuminate\Support\Facades\Storage;
-use Illuminate\Support\Str;
 
 /**
  * @property int $id

@@ -17,5 +17,5 @@ return [
         'chunk_index' => 'chunk_index',
         'chunk_total_count' => 'chunk_total_count',
         'chunk_data' => 'chunk_data',
-    ]
+    ],
 ];

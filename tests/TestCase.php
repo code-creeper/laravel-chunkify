@@ -2,9 +2,9 @@
 
 namespace CodeCreeper\Chunkify\Tests;
 
+use CodeCreeper\Chunkify\ChunkifyServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use CodeCreeper\Chunkify\ChunkifyServiceProvider;
 
 class TestCase extends Orchestra
 {

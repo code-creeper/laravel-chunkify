@@ -60,7 +60,7 @@ class ChunkifyController
             $chunkifyChunk = $chunkifyFile->chunks()->create([
                 'index' => $index,
                 'disk' => $chunkDisk,
-                'name' => $index . '_' . Str::random(),
+                'name' => $index.'_'.Str::random(),
             ]);
 
             if ($data instanceof UploadedFile) {
@@ -106,7 +106,7 @@ class ChunkifyController
         DB::commit();
 
         return Response::json([
-            'completed' => $chunkifyFile->completed
+            'completed' => $chunkifyFile->completed,
         ]);
     }
 }

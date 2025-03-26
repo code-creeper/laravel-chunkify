@@ -2,11 +2,9 @@
 
 namespace CodeCreeper\Chunkify;
 
-use Illuminate\Contracts\Foundation\CachesRoutes;
-use Illuminate\Support\Facades\Route;
+use CodeCreeper\Chunkify\Commands\ChunkifyCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use CodeCreeper\Chunkify\Commands\ChunkifyCommand;
 
 class ChunkifyServiceProvider extends PackageServiceProvider
 {
